@@ -1,0 +1,31 @@
+header{
+    background-color: rgb(249, 245, 245);
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px 0px 200px;
+}
+h1{
+    color: gray;
+    font-size: 50px;
+}
+
+.nav{
+    padding: 0px 160px 0px 160px;
+}
+li{
+    display: inline-block;
+    width: 10%;
+}
+
+button{
+    color: white;
+    background-color: orange;
+    width: 200px;
+    height: 40px;
+    font-size: large;
+    border: none;
+}
