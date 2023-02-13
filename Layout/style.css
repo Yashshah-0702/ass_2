@@ -131,24 +131,24 @@ footer{
     height: 50px;
     padding-top: 20px;
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:600px) {
 
     header {
-        width: 600px;
+        width: auto;
     }
 
 
-    p {
-        text-align: center;
-    }
+   input,textarea{
+    margin-left: 60px;
+   }
 
     .header,
     .header2 {
-        width: 400px;
+        width: auto;
     }
 
     li {
-        width: 400px;
+        width: auto;
         display: block;
         text-align: center;
         /* text-align: center; */
@@ -161,6 +161,27 @@ footer{
 
     .body2 {
         justify-content: center;
+    }
+
+    footer{
+        display: block;
+        
+    }
+    ul{
+       margin-top: 40px;
+    }
+    .container{
+        display: block;
+        width: auto;
+    }
+
+    .card{
+        width: auto;
+    }
+
+    video{
+        width:auto;
+        height:auto;
     }
 
 }
