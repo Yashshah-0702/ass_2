@@ -1,27 +1,35 @@
-header{
-    background-color: rgb(249, 245, 245);
-    
+header {
+    background-color: rgb(239, 239, 241);
+
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     padding: 0px 200px 0px 200px;
 }
-h1{
+
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px 0px 200px;
+}
+
+h1 {
     color: gray;
     font-size: 50px;
 }
 
-.nav{
+.nav {
     padding: 0px 160px 0px 160px;
 }
-li{
+
+li {
     display: inline-block;
     width: 10%;
 }
 
-button{
+button {
     color: white;
     background-color: orange;
     width: 200px;
@@ -29,57 +37,130 @@ button{
     font-size: large;
     border: none;
 }
-.body{
+
+.body {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(249, 245, 245);
+    background-color: rgb(239, 239, 241);
     padding-bottom: 80px;
 }
-.body1{
+
+.body1 {
     padding: 0px 200px 0px 200px;
 }
 
-.body2{
+.body2 {
     padding-top: 30px;
     padding-right: 200px;
     justify-content: space-around;
 }
 
-.btn{
+.btn {
     text-align: center;
     width: 360px;
     border-radius: 5px;
     margin-top: 10px;
 }
 
-.btn1{
+.btn1 {
     text-align: center;
     border-radius: 5px;
 }
 
-input{
+input {
     padding: 2px;
     margin-top: 15px;
     /* padding-left: 10px; */
 }
 
-textarea{
-    margin-top:10px ;
+textarea {
+    margin-top: 10px;
 }
 
-.body3{
+.body3 {
     display: flex;
-    background-color: skyblue;
+    background-color: rgb(32, 155, 222);
     color: white;
     justify-content: space-between;
     padding: 0px 200px 0px 200px;
 }
 
-.btn2{
+.btn2 {
     margin-top: 60px;
     /* margin-left: 40px; */
     background-color: white;
     color: skyblue;
 }
 
+video {
+    margin-top: 30px;
+    justify-content: center;
+}
 
+.body4 {
+    padding-right: 200px;
+    text-align: left;
+}
+.container{
+    padding: 0px 200px 0px 200px;
+    display: flex;
+}
+.card{
+    width: 300px;
+    padding: 40px;
+    margin-left: 70px;
+}
+.center{
+    margin-left: 900px;
+}
+footer{
+    background-color: rgb(149, 149, 149);
+    padding: 50px 200px 50px 200px;
+    display: flex;
+}
+.block{
+    display: block;
+    color: azure;
+    width: 200px;
+}
+
+.copyright{
+    text-align: center;
+    background-color: rgb(142, 142, 142);
+    color: rgb(123, 123, 123);
+    height: 50px;
+    padding-top: 20px;
+}
+@media screen and (max-width:400px) {
+
+    header {
+        width: 600px;
+    }
+
+
+    p {
+        text-align: center;
+    }
+
+    .header,
+    .header2 {
+        width: 400px;
+    }
+
+    li {
+        width: 400px;
+        display: block;
+        text-align: center;
+        /* text-align: center; */
+    }
+
+    .body {
+        display: block;
+        padding: 0%;
+    }
+
+    .body2 {
+        justify-content: center;
+    }
+
+}
