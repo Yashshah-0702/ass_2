@@ -111,7 +111,7 @@ video {
     margin-left: 70px;
 }
 .center{
-    margin-left: 900px;
+    margin-left: 700px;
 }
 footer{
     background-color: rgb(149, 149, 149);
@@ -132,39 +132,60 @@ footer{
     padding-top: 20px;
 }
 @media screen and (max-width:600px) {
-
+    body{
+        text-align: center;
+        width: auto;
+    }
     header {
+        width: 100%;
+    }
+    .header{
+        padding:0px ;
+    }
+    .header2{
+        display: block;
+        padding: 0px;
+        text-align: center;
+    }
+    .nav{
+        padding: 0px;
+        text-align: left;
+    }
+    .body1{
+        padding: 0px;
+    }
+    textarea{
+        width:100%;
+    }
+    .body3{
+        display: block;
+        text-align: center;
+        padding: 0px;
+    }
+    .btn2{
+        margin: 10px;
+        
+    }
+    .btn{
         width: auto;
     }
-
-
-   input,textarea{
-    margin-left: 60px;
-   }
-
-    .header,
-    .header2 {
-        width: auto;
+    .body4{
+        text-align: center;
+        padding: 0px;
     }
-
     li {
         width: auto;
         display: block;
-        text-align: center;
-        /* text-align: center; */
+        
     }
-
     .body {
         display: block;
-        padding: 0%;
+        padding: 0px;
+        text-align: center;
     }
-
-    .body2 {
-        justify-content: center;
-    }
-
     footer{
         display: block;
+        padding: 10px;
         
     }
     ul{
@@ -173,15 +194,17 @@ footer{
     .container{
         display: block;
         width: auto;
+        padding: 0px;
     }
-
     .card{
         width: auto;
     }
-
     video{
         width:auto;
         height:auto;
     }
-
+    .copyright{
+       margin:0px ;
+       height: auto;
+    }
 }
